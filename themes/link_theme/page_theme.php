@@ -21,6 +21,7 @@ class PageTheme extends Theme
     public function registerAssets()
     {
         $this->requireAsset('javascript', 'jquery');
+        $this->requireAsset('javascript', 'bootstrap');
     }
 
 }
