@@ -12,9 +12,9 @@ use Concrete\Core\View\View;
 ?>
 
     <footer>
-        <div class="footer-copyright">
+        <div class="footer-social-links">
             <?php
-            $a = new GlobalArea('Footer Copyright');
+            $a = new GlobalArea('Footer Social Links');
             $a->display();
             ?>
         </div>
