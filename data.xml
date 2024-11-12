@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <themes>
+        <theme handle="link_theme" activated="1" package="link_theme"/>
+    </themes>
+
+    <containers>
+        <container handle="section" name="Section"
+                   icon="blank.png" package="link_theme"/>
+    </containers>
+
+    <attributekeys>
+        <attributekey handle="page_background" name="Page Background" package="link_theme"
+                      searchable="1"
+                      indexed="0" type="image_file"
+                      category="collection"/>
+        <attributekey handle="profile_picture" name="Profile Picture" package="link_theme"
+                      searchable="1"
+                      indexed="0" type="image_file"
+                      category="collection"/>
+        <attributekey handle="profile_title" name="Profile Title" package="link_theme"
+                      searchable="1"
+                      indexed="0" type="text"
+                      category="collection"/>
+        <attributekey handle="profile_bio" name="Profile Bio" package="link_theme"
+                      searchable="1"
+                      indexed="0" type="text"
+                      category="collection"/>
+    </attributekeys>
+
+    <thumbnailtypes>
+        <thumbnailtype name="Video Thumbnail" handle="video_thumbnail" sizingMode="exact" width="1920" height="1080"/>
+        <thumbnailtype name="Gallery Thumbnail" handle="gallery_thumbnail" sizingMode="exact" width="600" height="600"/>
+        <thumbnailtype name="Profile Picture" handle="profile_picture" sizingMode="exact" width="600" height="600"/>
+    </thumbnailtypes>
+
+    <blocktypes>
+        <blocktype handle="music_link" package="link_theme"/>
+        <blocktype handle="regular_link" package="link_theme"/>
+        <blocktype handle="book_link" package="link_theme"/>
+    </blocktypes>
+
+    <blocktypesets>
+        <blocktypeset handle="link_theme" name="Link Theme" package="link_theme">
+            <blocktype handle="music_link"/>
+            <blocktype handle="regular_link"/>
+            <blocktype handle="book_link"/>
+        </blocktypeset>
+    </blocktypesets>
+</concrete5-cif>

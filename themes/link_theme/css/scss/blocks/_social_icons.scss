@@ -1,0 +1,22 @@
+html {
+  body {
+    .ccm-page {
+      .social-icon {
+        margin: 2rem 5px 5px;
+        display: inline-block;
+
+        svg, i {
+          width: 24px;
+          height: 24px;
+          color: $text-regular-color;
+          font-size: 24px;
+          line-height: 24px;
+        }
+
+        svg {
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}

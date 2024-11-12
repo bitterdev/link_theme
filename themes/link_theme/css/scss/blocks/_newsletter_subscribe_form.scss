@@ -1,0 +1,30 @@
+html {
+  body {
+    .ccm-page {
+      .simple-newsletter-subscribe-form {
+        input[type=email] {
+          z-index: 0;
+          overflow: hidden;
+          background-color: #ffffff;
+          margin: 1rem auto;
+          width: 100%;
+          border-radius: 24px;
+          border: none !important;
+          min-height: 4rem !important;
+          line-height: 2rem;
+          display: block;
+          color: #000000;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+
+        .simple-newsletter-subscribe-button {
+          input {
+            @include animated-element;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

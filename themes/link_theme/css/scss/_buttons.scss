@@ -1,0 +1,10 @@
+html {
+  body {
+    .ccm-page {
+      .link-item {
+        @include animated-element;
+        padding: 1rem;
+      }
+    }
+  }
+}

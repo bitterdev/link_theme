@@ -1,0 +1,11 @@
+html {
+  body {
+    .ccm-page {
+      .youtubeBlock {
+        @include animated-element();
+        aspect-ratio: 16 / 9;
+        height: 100%;
+      }
+    }
+  }
+}

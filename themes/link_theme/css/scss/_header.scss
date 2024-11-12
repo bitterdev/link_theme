@@ -1,0 +1,30 @@
+html {
+  body {
+    .ccm-page {
+      header {
+        .profile-picture {
+          border-radius: 50%;
+          width: 96px;
+          height: 96px;
+          display: block;
+          overflow: hidden;
+          margin: auto auto 1rem;
+
+          img {
+            width: 96px;
+            height: 96px;
+            display: inline-block;
+          }
+        }
+
+        .profile-title {
+          color: $text-regular-color;
+        }
+
+        .profile-bio {
+          color: $text-regular-color;
+        }
+      }
+    }
+  }
+}

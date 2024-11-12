@@ -1,0 +1,40 @@
+@import "shared-variables";
+
+// This comes after shared variables so we can do things like define new button types in _shared-variables.scss
+// which bootstrap will automatically create
+@import "@concretecms/bedrock/assets/bedrock/scss/frontend";
+@import "mixins";
+@import "containers";
+@import "typography";
+@import "buttons";
+@import "blocks";
+@import "dialog";
+@import "toastify";
+@import "header";
+@import "footer";
+
+html {
+  body {
+    .ccm-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: $background-color;
+      background-position: center center;
+      padding: 4rem 1rem;
+
+      main, header, footer {
+        max-width: 580px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+      }
+    }
+  }
+}

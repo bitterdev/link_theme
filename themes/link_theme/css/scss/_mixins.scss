@@ -1,0 +1,19 @@
+@mixin animated-element {
+  z-index: 0;
+  overflow: hidden;
+  background-color: $button-color;
+  margin: 1rem auto;
+  width: 100%;
+  transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+  border-radius: 24px;
+  border: none !important;
+  min-height: 4rem !important;
+  line-height: 2rem;
+  display: block;
+  color: $text-regular-color;
+
+  &:hover {
+    transform: scale(1.02);
+    color: $text-hover-color;
+  }
+}

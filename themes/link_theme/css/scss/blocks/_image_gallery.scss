@@ -1,0 +1,24 @@
+html {
+  body {
+    .ccm-page {
+      .image-gallery {
+        @include animated-element();
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 5px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+
+        img {
+          width: 100%;
+          display: block;
+          height: 100%;
+          object-fit: cover;
+          grid-column: span 1;
+        }
+      }
+    }
+  }
+}
