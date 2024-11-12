@@ -11,7 +11,7 @@ class Controller extends Package
 {
     protected string $pkgHandle = 'link_theme';
     protected string $pkgVersion = '0.0.7';
-    protected $appVersionRequired = '9.2.0';
+    protected $appVersionRequired = '9.0.0';
     protected $pkgAllowsFullContentSwap = true;
     protected $pkgAutoloaderRegistries = [
         'src/Bitter/LinkTheme' => 'Bitter\LinkTheme',
