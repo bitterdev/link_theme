@@ -2,7 +2,7 @@
 
 defined('C5_EXECUTE') or die("Access Denied.");
 
-use Concrete\Core\Area\GlobalArea;
+use Concrete\Core\Area\Area;
 use Concrete\Core\Page\Page;
 use Concrete\Core\View\View;
 
@@ -14,14 +14,14 @@ use Concrete\Core\View\View;
     <footer>
         <div class="footer-social-links">
             <?php
-            $a = new GlobalArea('Footer Social Links');
+            $a = new Area('Footer Social Links');
             $a->display();
             ?>
         </div>
 
         <div class="footer-legal">
             <?php
-            $a = new GlobalArea('Footer Legal');
+            $a = new Area('Footer Legal');
             $a->display();
             ?>
         </div>
