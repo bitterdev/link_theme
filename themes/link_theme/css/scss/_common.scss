@@ -2,7 +2,7 @@
 
 // This comes after shared variables so we can do things like define new button types in _shared-variables.scss
 // which bootstrap will automatically create
-@import "@concretecms/bedrock/assets/bedrock/scss/frontend";
+@import '@concretecms/bedrock/assets/bedrock/scss/frontend';
 @import "mixins";
 @import "containers";
 @import "typography";

@@ -5,7 +5,7 @@
   "author": "PortlandLabs",
   "license": "MIT",
   "devDependencies": {
-    "@concretecms/bedrock": "^1.4.8",
+    "@concretecms/bedrock": "^1.5.5",
     "laravel-mix": "^6.0.41",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.59.3",
