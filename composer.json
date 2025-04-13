@@ -1,5 +1,10 @@
 {
   "name": "bitter/link_theme",
   "type": "concrete5-package",
-  "description": "Linktree-like Theme for ConcreteCMS."
+  "description": "Linktree-like Theme for ConcreteCMS.",
+  "autoload": {
+    "psr-4": {
+      "Bitter\\LinkTheme\\": "src/Bitter/LinkTheme"
+    }
+  }
 }
