@@ -10,6 +10,9 @@ use Concrete\Core\View\View;
 /** @noinspection PhpUnhandledExceptionInspection */
 View::element("dashboard/help_blocktypes", [], "link_theme");
 
+/** @noinspection PhpUnhandledExceptionInspection */
+View::element("dashboard/did_you_know", [], "link_theme");
+
 /** @var string $label */
 /** @var string $spotify */
 /** @var string $youtube */
